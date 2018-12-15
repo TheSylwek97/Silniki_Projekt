@@ -485,6 +485,7 @@ GameObject:
   - component: {fileID: 1882939124}
   - component: {fileID: 1882939127}
   - component: {fileID: 1882939126}
+  - component: {fileID: 1882939128}
   m_Layer: 0
   m_Name: CoffeeMaker
   m_TagString: Untagged
@@ -545,7 +546,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1882939123}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.3, y: -1.55, z: 0}
+  m_LocalPosition: {x: -0.3, y: -1.04, z: 0}
   m_LocalScale: {x: 0.48, y: 0.48, z: 0.48}
   m_Children: []
   m_Father: {fileID: 0}
@@ -563,7 +564,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.020472527, y: -1.4274206}
+  m_Offset: {x: 0.020472527, y: -1.1307917}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -574,7 +575,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 9.696005, y: 9.145159}
+  m_Size: {x: 9.696005, y: 8.551901}
   m_EdgeRadius: 0
 --- !u!50 &1882939127
 Rigidbody2D:
@@ -596,6 +597,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!114 &1882939128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882939123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5d17ef260585e54bb5275e5de02befa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ListOfItem: []
 --- !u!1 &2133847961
 GameObject:
   m_ObjectHideFlags: 0

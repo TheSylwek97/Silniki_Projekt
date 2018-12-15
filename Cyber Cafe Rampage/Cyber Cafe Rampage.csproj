@@ -300,7 +300,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scrypty\IsCorrect.cs" />
+    <Compile Include="Assets\Scrypty\ListOfIngredients.cs" />
     <Compile Include="Assets\Scrypty\MoveScrypt.cs" />
+    <Compile Include="Assets\Scrypty\Recipe01.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Dark.uss" />
