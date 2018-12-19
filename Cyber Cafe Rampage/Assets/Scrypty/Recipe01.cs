@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Recipe01 : MonoBehaviour {
 
-    
+    public List<string> RecipeLvl01 = new List<string>();
     public void Recipe ()
     {
-        List<string> Recipe01;
-        Recipe01.Add("Milk");
-        Recipe01.Add("Sugar");
+       
+        RecipeLvl01.Add("Milk");
+        RecipeLvl01.Add("Sugar");
     } 
 }
