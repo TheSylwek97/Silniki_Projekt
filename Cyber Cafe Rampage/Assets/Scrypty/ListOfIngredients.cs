@@ -17,6 +17,7 @@ public class ListOfIngredients : MonoBehaviour {
         if (_tag == "Level01")
         {
             RecipeList.Add("Milk");
+            RecipeList.Add("Sugar");
             
         }
         if (_tag == "Level02")
