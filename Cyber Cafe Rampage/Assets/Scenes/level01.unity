@@ -240,7 +240,7 @@ GameObject:
   - component: {fileID: 511680602}
   - component: {fileID: 511680601}
   m_Layer: 0
-  m_Name: CoffeesName
+  m_Name: Level
   m_TagString: Level01
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -438,6 +438,12 @@ Prefab:
       propertyPath: level
       value: 
       objectReference: {fileID: 511680600}
+    - target: {fileID: 114311485956704092, guid: d1205d03cecd2884ab4a67e59e983fe2,
+        type: 2}
+      propertyPath: coffee
+      value: 
+      objectReference: {fileID: 1902485571398074, guid: 3799aa86d65e6ec4ebd8b1d9288f9b46,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1205d03cecd2884ab4a67e59e983fe2, type: 2}
   m_IsPrefabAsset: 0

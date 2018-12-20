@@ -11,6 +11,7 @@ public class ListOfIngredients : MonoBehaviour {
     public List<string> ListOfItem = new List<string>();
     [SerializeField]
     public GameObject level;
+    public GameObject coffee;
     
     
     void Start () {
@@ -80,6 +81,7 @@ public class ListOfIngredients : MonoBehaviour {
     {
         string name = collider.gameObject.name;
         ListOfItem.Add(name);
+        Instantiate(coffee, new Vector2(0.67F, -2.194F), Quaternion.identity);
         number += 1;
 
     }
@@ -93,11 +95,11 @@ public class ListOfIngredients : MonoBehaviour {
             {
                 Debug.Log("JEJ!");
             }
+            else
+            {
+                Debug.Log("Lipa");
+            }
         }
-
-        else
-        {
-            Debug.Log("O nie!");
-        }
+        
     }
 }
