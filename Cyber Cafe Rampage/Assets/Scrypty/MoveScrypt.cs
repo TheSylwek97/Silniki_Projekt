@@ -5,12 +5,7 @@ using UnityEngine;
 public class MoveScrypt : MonoBehaviour {
 
     bool status;
-    // Use this for initialization
-    void Start () {
-		
-	}
-	
-	// Update is called once per frame
+    
 	void Update () {
 
         if(status == true)
