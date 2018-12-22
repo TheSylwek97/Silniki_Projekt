@@ -113,15 +113,15 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &382963734
+--- !u!1 &31495222
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 382963736}
-  - component: {fileID: 382963735}
+  - component: {fileID: 31495224}
+  - component: {fileID: 31495223}
   m_Layer: 0
   m_Name: Cupboard
   m_TagString: Untagged
@@ -129,12 +129,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!212 &382963735
+--- !u!212 &31495223
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 382963734}
+  m_GameObject: {fileID: 31495222}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -175,12 +175,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!4 &382963736
+--- !u!4 &31495224
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 382963734}
+  m_GameObject: {fileID: 31495222}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.009, y: -0.38, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 1}
@@ -188,16 +188,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1484989278
+--- !u!1 &538902698
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1484989281}
-  - component: {fileID: 1484989280}
-  - component: {fileID: 1484989279}
+  - component: {fileID: 538902701}
+  - component: {fileID: 538902700}
+  - component: {fileID: 538902699}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -205,19 +205,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1484989279
+--- !u!81 &538902699
 AudioListener:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1484989278}
+  m_GameObject: {fileID: 538902698}
   m_Enabled: 1
---- !u!20 &1484989280
+--- !u!20 &538902700
 Camera:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1484989278}
+  m_GameObject: {fileID: 538902698}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
@@ -252,12 +252,12 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!4 &1484989281
+--- !u!4 &538902701
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1484989278}
+  m_GameObject: {fileID: 538902698}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -265,7 +265,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1485130667
+--- !u!1001 &1037965266
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -302,12 +302,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4074189413186190, guid: d1205d03cecd2884ab4a67e59e983fe2, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1205d03cecd2884ab4a67e59e983fe2, type: 2}
   m_IsPrefabAsset: 0
---- !u!1001 &1543145009
+--- !u!1001 &1602413451
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -344,7 +344,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4338034348458922, guid: 796774e1f652ef6418af4d05c1347639, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 796774e1f652ef6418af4d05c1347639, type: 2}
