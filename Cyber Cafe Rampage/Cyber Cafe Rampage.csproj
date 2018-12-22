@@ -301,7 +301,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ButtonManager.cs" />
+    <Compile Include="Assets\Scrypty\Inventory.cs" />
     <Compile Include="Assets\Scrypty\IsCorrect.cs" />
+    <Compile Include="Assets\Scrypty\Item.cs" />
     <Compile Include="Assets\Scrypty\ListOfIngredients.cs" />
     <Compile Include="Assets\Scrypty\MoveScrypt.cs" />
     <Compile Include="Assets\Scrypty\Recipe01.cs" />

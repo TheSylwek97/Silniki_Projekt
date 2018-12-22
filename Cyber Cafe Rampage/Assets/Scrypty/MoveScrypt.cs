@@ -5,7 +5,7 @@ using UnityEngine;
 public class MoveScrypt : MonoBehaviour {
 
     bool status;
-    
+    public GameObject level;
 	void Update () {
 
         if(status == true)
@@ -29,11 +29,17 @@ public class MoveScrypt : MonoBehaviour {
 
     public void OnMouseDown()
     {
-        status = true;
+        if (level.tag != "Messroom")
+        {
+            status = true;
+        }
     }
 
     public void OnMouseUp()
     {
-        status = false;
+        if (level.tag != "Messroom")
+        {
+            status = false;
+        }
     }
 }
