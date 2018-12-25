@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+using UnityEngine.SceneManagement;
 
 public class ListOfIngredients : MonoBehaviour {
 
@@ -16,6 +17,12 @@ public class ListOfIngredients : MonoBehaviour {
     
     void Start () {
         string _tag = level.tag;
+
+        if(_tag == "probny")
+        {
+            RecipeList.Add("Mleko");
+            _number = 1;
+        }
 
         if (_tag == "Level01")
         {
@@ -93,7 +100,7 @@ public class ListOfIngredients : MonoBehaviour {
 
             if (RecipeList.SequenceEqual(ListOfItem))
             {
-                Debug.Log("JEJ!");
+                SceneManager.LoadScene("Level Completed");
             }
             else
             {
