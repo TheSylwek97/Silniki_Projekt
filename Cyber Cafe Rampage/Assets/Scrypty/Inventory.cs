@@ -5,7 +5,7 @@ using System.IO;
 
 public class Inventory : MonoBehaviour
 {
-    public GameObject level;
+    /*public GameObject level;
     
     [System.Serializable]
     
@@ -13,7 +13,7 @@ public class Inventory : MonoBehaviour
     public class InventoryData
     {
         public List<Item.ItemData> ListaItemow = new List<Item.ItemData>();
-    }
+    
 
     public void Start()
     {
@@ -44,7 +44,7 @@ public class Inventory : MonoBehaviour
              }
          }
      }*/
-    public void OnMouseDown()
+  /*  public void OnMouseDown()
     {
        
     }
@@ -53,13 +53,13 @@ public class Inventory : MonoBehaviour
     {
 
     }
-    private void OnDisable()
+  /*  private void OnDisable()
     {
 
         var value = JsonUtility.ToJson(Data);
         Debug.Log(value);
         File.WriteAllText(Application.persistentDataPath + '/' + "save.dat", value);
     }
-
+    */
 
 }

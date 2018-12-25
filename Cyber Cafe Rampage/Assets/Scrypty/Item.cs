@@ -4,12 +4,18 @@ using UnityEngine;
 
 public class Item : MonoBehaviour
 {
-    [System.Serializable]
-    public class ItemData
+    public void Odbierz(bool jaka)
     {
-        public string Name;
-    }
+        if (jaka == true)
+        {
 
-    public ItemData Data;
+            Debug.Log("Działa");
+        }
+
+        if(jaka != true)
+        {
+            Debug.Log("Nie");
+        }
+    }
 
 }

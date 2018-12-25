@@ -4,11 +4,8 @@ using UnityEngine;
 
 public class Recipe01 : MonoBehaviour {
 
-    public List<string> RecipeLvl01 = new List<string>();
-    public void Recipe ()
+    private void Start()
     {
-       
-        RecipeLvl01.Add("Milk");
-        RecipeLvl01.Add("Sugar");
-    } 
+        gameObject.SendMessage("Odbierz", false);
+    }
 }
