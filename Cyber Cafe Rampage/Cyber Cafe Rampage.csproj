@@ -306,7 +306,7 @@
     <Compile Include="Assets\Scrypty\Item.cs" />
     <Compile Include="Assets\Scrypty\ListOfIngredients.cs" />
     <Compile Include="Assets\Scrypty\MoveScrypt.cs" />
-    <Compile Include="Assets\Scrypty\Recipe01.cs" />
+    <Compile Include="Assets\Scrypty\Recipe.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Dark.uss" />
