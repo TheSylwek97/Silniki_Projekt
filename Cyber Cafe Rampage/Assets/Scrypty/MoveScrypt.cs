@@ -5,9 +5,10 @@ using UnityEngine;
 public class MoveScrypt : MonoBehaviour {
 
     bool status;
+    public bool click;
     public GameObject level;
     //List<string> ItemList = new List<string>();
-	void Update () {
+	public void Update () {
 
         if(level.tag == "Messroom")
         {
@@ -16,6 +17,7 @@ public class MoveScrypt : MonoBehaviour {
             if (Input.GetMouseButtonDown(0))
             {
                 Debug.Log("OK");
+                bool click = true;
             }
            
         }
