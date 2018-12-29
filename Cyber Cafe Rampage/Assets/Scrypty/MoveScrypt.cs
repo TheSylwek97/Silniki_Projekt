@@ -7,30 +7,24 @@ public class MoveScrypt : MonoBehaviour {
     bool status;
     public int click = 0;
     public GameObject level;
-    //List<string> ItemList = new List<string>();
-	public void Update () {
-
-        if(level.tag == "Messroom")
+    public void Start()
+    {
+        if (level.tag == "Messroom")
         {
             Rigidbody2D rb = GetComponent<Rigidbody2D>();
-            rb.simulated = false;
-            if (Input.GetMouseButtonDown(0))
-            {
-                Debug.Log("OK");
-                click = 1;
-                
-            }
-           
+            rb.constraints = RigidbodyConstraints2D.FreezePosition;
         }
-        else
-        {
+    }
+    public void Update ()
+    {
+        
             if (status == true)
             {
                 Vector2 mousePosition = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
                 Vector2 objPosition = Camera.main.ScreenToWorldPoint(mousePosition);
                 transform.position = objPosition;
             }
-        }
+       
 
     }
     private void OnTriggerEnter2D(Collider2D other)
@@ -47,10 +41,11 @@ public class MoveScrypt : MonoBehaviour {
         {
             status = true;
         }
-        else
+        if (level.tag == "Messroom")
         {
-            status = false;
+            click = 1;
         }
+
     }
 
     public void OnMouseUp()
