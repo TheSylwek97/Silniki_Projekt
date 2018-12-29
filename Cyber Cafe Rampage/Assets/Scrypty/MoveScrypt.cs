@@ -5,7 +5,7 @@ using UnityEngine;
 public class MoveScrypt : MonoBehaviour {
 
     bool status;
-    public bool click;
+    public int click = 0;
     public GameObject level;
     //List<string> ItemList = new List<string>();
 	public void Update () {
@@ -17,7 +17,8 @@ public class MoveScrypt : MonoBehaviour {
             if (Input.GetMouseButtonDown(0))
             {
                 Debug.Log("OK");
-                bool click = true;
+                click = 1;
+                
             }
            
         }

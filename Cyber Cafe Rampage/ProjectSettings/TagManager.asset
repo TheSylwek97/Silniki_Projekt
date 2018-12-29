@@ -8,6 +8,7 @@ TagManager:
   - Level02
   - Messroom
   - probny
+  - Item
   layers:
   - Default
   - TransparentFX

@@ -15,7 +15,7 @@ public class Recipe : MonoBehaviour {
         {
             RecipeList.Add("Mleko");
             _number = 1;
-            gameObject.SendMessage("ListOfIngredients", RecipeList);
+            //gameObject.SendMessage("ListOfIngredients", RecipeList);
         }
 
         if (_tag == "Level01")
@@ -69,8 +69,8 @@ public class Recipe : MonoBehaviour {
         }
     }
 
-    public void Send(List<string> RecipeList)
+    /*public void Send(List<string> RecipeList)
     {
         gameObject.SendMessage("ListOfIngredients", RecipeList);
-    }
+    }*/
 }

@@ -5,48 +5,88 @@ using System.IO;
 
 public class Inventory : MonoBehaviour
 {
-    public List<GameObject> ListaItemow = new List<GameObject>();
-    public GameObject movescript;
+    public List<string> ListaItemow = new List<string>();
+    //public GameObject movescript;
+    public int _click = 1;
 
-    public void Start()
+    public void Update()
     {
+        /* if (Input.GetMouseButtonDown(0))
+         {
+             Ray ray = gameObject.GetComponent<Camera>().ScreenPointToRay(Input.mousePosition);
+             RaycastHit hit;
+             Debug.Log("omo");
+             if (Physics.Raycast(ray, out hit))
+             {
+                 Debug.Log("Yh");
+                 if (hit.transform.gameObject.tag == "Item")
+                 {
+
+                     Transform selected = hit.transform;
+                     ListaItemow.Add(name);
+                     Debug.Log("Itemek");
+                 }
+             }
+         }*/
+
+        AddItem();
         /*if ((Input.GetMouseButtonDown(0)) )
         {
             ListaItemow.Add(gameObject);
             Debug.Log("JestSpox");
         }*/
+        
     }
 
-    public void AddItem(float damage)
+    public void AddItem()
     {
-        MoveScrypt item = gameObject.GetComponent<MoveScrypt>();
-        if(item.click == true)
+        MoveScrypt cs = gameObject.GetComponentInChildren<MoveScrypt>();
+        Debug.Log("kiki");
+        if (_click == cs.click)
         {
-
+            ListaItemow.Add(cs.name);
+            Debug.Log("zostalo dodane");
         }
     }
 
-    private void OnMouseDown()
+   /* public void AddList()
     {
-        Ray ray = gameObject.GetComponent<Camera>().ScreenPointToRay(Input.mousePosition);
-        RaycastHit hit;
+        
+        if (item.click == true)
+        {
+            ListaItemow.Add(item.name);
+            Debug.Log("zostalo dodane");
+        }
+    }*/
 
+
+
+
+
+
+
+    /*
+     * Ray ray = gameObject.GetComponent<Camera>().ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+        Debug.Log("Trolor");
         if (Physics.Raycast(ray, out hit))
         {
             if (hit.transform.gameObject.tag == "Item")
             {
-                ListaItemow.Add(gameObject); 
+                ListaItemow.Add(gameObject);
+                Debug.Log("Itemek");
             }
         }
-    }
-
-
-
-
-
-
-
-    /*public GameObject level;
+     * 
+     * 
+     * 
+     * 
+     * 
+     * 
+     * 
+     * 
+     * 
+     * public GameObject level;
     && (this.gameObject.tag == "Messroom"
     [System.Serializable]
     
