@@ -17,15 +17,12 @@ public class MoveScrypt : MonoBehaviour {
     }
     public void Update ()
     {
-        
-            if (status == true)
-            {
+         if (status == true)
+         {
                 Vector2 mousePosition = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
                 Vector2 objPosition = Camera.main.ScreenToWorldPoint(mousePosition);
                 transform.position = objPosition;
-            }
-       
-
+         }
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -45,7 +42,6 @@ public class MoveScrypt : MonoBehaviour {
         {
             click = 1;
         }
-
     }
 
     public void OnMouseUp()
