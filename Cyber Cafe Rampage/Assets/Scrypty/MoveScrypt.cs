@@ -5,7 +5,8 @@ using UnityEngine;
 public class MoveScrypt : MonoBehaviour {
 
     bool status;
-    public int click = 0;
+    public bool click = false;
+    public bool hover = false;
     public GameObject level;
     public void Start()
     {
@@ -13,6 +14,8 @@ public class MoveScrypt : MonoBehaviour {
         {
             Rigidbody2D rb = GetComponent<Rigidbody2D>();
             rb.constraints = RigidbodyConstraints2D.FreezePosition;
+
+            
         }
     }
     public void Update ()
@@ -23,6 +26,10 @@ public class MoveScrypt : MonoBehaviour {
                 Vector2 objPosition = Camera.main.ScreenToWorldPoint(mousePosition);
                 transform.position = objPosition;
          }
+        if ((hover == true) && (Input.GetMouseButtonDown(0)))
+        {
+            click = true;
+        }
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -34,13 +41,20 @@ public class MoveScrypt : MonoBehaviour {
 
     public void OnMouseDown()
     {
+       
         if (level.tag != "Messroom")
         {
             status = true;
         }
-        if (level.tag == "Messroom")
+        if ((level.tag == "Messroom"))
         {
-            click = 1;
+           // click = true;
+            
+            
+        }
+        else
+        {
+            //click = false;
         }
     }
 
@@ -54,5 +68,11 @@ public class MoveScrypt : MonoBehaviour {
         {
             status = false;
         }
+    }
+
+    public void OnMouseOver()
+    {
+        hover = true;
+        
     }
 }

@@ -246,6 +246,11 @@ Prefab:
       propertyPath: m_Constraints
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 50971794018175130, guid: 940e34f5a74801340a400ac0f4ab1c48,
+        type: 2}
+      propertyPath: m_BodyType
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114176736793363022, guid: 940e34f5a74801340a400ac0f4ab1c48, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 940e34f5a74801340a400ac0f4ab1c48, type: 2}
@@ -342,6 +347,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   click: 0
+  hover: 0
   level: {fileID: 616688749}
 --- !u!4 &209796168 stripped
 Transform:
@@ -841,7 +847,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ListaItemow: []
-  _click: 1
 --- !u!1 &655592114
 GameObject:
   m_ObjectHideFlags: 0
@@ -1050,6 +1055,20 @@ Prefab:
     - target: {fileID: 1243176647541258, guid: 1a56a1c0e912a9a4c8dbf1e7078df846, type: 2}
       propertyPath: m_TagString
       value: Item
+      objectReference: {fileID: 0}
+    - target: {fileID: 1243176647541258, guid: 1a56a1c0e912a9a4c8dbf1e7078df846, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212688375541177890, guid: 1a56a1c0e912a9a4c8dbf1e7078df846,
+        type: 2}
+      propertyPath: m_SpriteSortPoint
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 50683573972634688, guid: 1a56a1c0e912a9a4c8dbf1e7078df846,
+        type: 2}
+      propertyPath: m_BodyType
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a56a1c0e912a9a4c8dbf1e7078df846, type: 2}

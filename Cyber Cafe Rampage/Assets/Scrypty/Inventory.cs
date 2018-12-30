@@ -6,7 +6,7 @@ using System.IO;
 public class Inventory : MonoBehaviour
 {
     public List<string> ListaItemow = new List<string>();
-    public int _click = 1;
+    //public int _click = 1;
 
     public void Update()
     {
@@ -16,7 +16,7 @@ public class Inventory : MonoBehaviour
     public void AddItem()
     {
         MoveScrypt cs = gameObject.GetComponentInChildren<MoveScrypt>();
-        if (_click == cs.click)
+        if (cs.click == true)
         {
             ListaItemow.Add(cs.name);
             Debug.Log("zostalo dodane");
@@ -24,7 +24,7 @@ public class Inventory : MonoBehaviour
         }
     }
 
-    private void OnEnable()
+    /*private void OnEnable()
     {
         var isom = File.ReadAllText(Application.persistentDataPath + '/' + "save.dat");
         Data = JsonUtility.FromJson<InventoryData>(isom);
@@ -37,6 +37,8 @@ public class Inventory : MonoBehaviour
         var value = JsonUtility.ToJson(Data);
         Debug.Log(value);
         File.WriteAllText(Application.persistentDataPath + '/' + "save.dat", value);
-    }
+    }*/
+
+    
 
 }
