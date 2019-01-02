@@ -5,9 +5,14 @@ using UnityEngine;
 public class MoveScrypt : MonoBehaviour {
 
     bool status;
-    public bool click = false;
+    public bool click;
+    public bool mom;
     public bool hover = false;
     public GameObject level;
+   // public GameObject item;
+    //private Transform playerSelection;
+   // private bool isSelected;
+
     public void Start()
     {
         if (level.tag == "Messroom")
@@ -28,7 +33,7 @@ public class MoveScrypt : MonoBehaviour {
          }
         if ((hover == true) && (Input.GetMouseButtonDown(0)))
         {
-            click = true;
+           // click = true;
         }
     }
     private void OnTriggerEnter2D(Collider2D other)
@@ -48,31 +53,81 @@ public class MoveScrypt : MonoBehaviour {
         }
         if ((level.tag == "Messroom"))
         {
-           // click = true;
+           
             
             
         }
         else
         {
-            //click = false;
+            
         }
     }
 
+    public void OnMouseDrag()
+    {
+        
+    }
+
+    
+    
     public void OnMouseUp()
     {
         if (level.tag != "Messroom")
         {
             status = false;
         }
-        else
+        if (level.tag == "Messroom")
         {
             status = false;
+        }
+        if(tag == "Item")
+        {
+            this.gameObject.SetActive(true);
+        }
+        if(tag != "Item")
+        {
+            this.gameObject.
         }
     }
 
     public void OnMouseOver()
     {
-        hover = true;
-        
+        tag = "Item";
     }
+
+    public void OnMouseExit()
+    {
+        tag = "Untagged";
+    }
+
+    /* public void IsClick(bool mom)
+     {
+         if(mom == true)
+         {
+             click = true;
+             Debug.Log("Zorro");
+         }
+     }*/
+
+    /*public void OnMouseOver(GameObject newParent)
+    {
+        hover = true;
+        //newParent = gameObject.transform;
+        // level.transform.SetChot(newParent.transform);
+        item.transform.parent = newParent.transform;
+        
+    }*/
+
+    /* public void selectPlayer()
+     {
+         isSelected = true;
+         playerSelection.gameObject.SetActive(true);
+     }
+
+     public void unselectPlayer()
+     {
+         isSelected = false;
+         playerSelection.gameObject.SetActive(false);
+     }*/
+
 }
