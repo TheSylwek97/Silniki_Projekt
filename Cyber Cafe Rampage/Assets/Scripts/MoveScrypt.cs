@@ -86,7 +86,7 @@ public class MoveScrypt : MonoBehaviour {
         }
         if(tag != "Item")
         {
-            this.gameObject.
+            //this.gameObject.
         }
     }
 
