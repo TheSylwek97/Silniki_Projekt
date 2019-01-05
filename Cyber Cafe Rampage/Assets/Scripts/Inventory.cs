@@ -6,8 +6,6 @@ using System.IO;
 public class Inventory : MonoBehaviour
 {
     public List<string> ListaItemow = new List<string>();
-
-    
 }
 
 /*

@@ -107,8 +107,6 @@ public class MoveScrypt : MonoBehaviour
 
         if ((level.tag == "Messroom"))
         {
-            
-
             string name = this.gameObject.name;
             level.ListaItemow.Add(name);
             

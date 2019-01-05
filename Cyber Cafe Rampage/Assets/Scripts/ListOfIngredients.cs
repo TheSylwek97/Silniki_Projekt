@@ -35,7 +35,7 @@ public class ListOfIngredients : MonoBehaviour {
             }
             else
             {
-                Debug.Log("Lipa");
+                SceneManager.LoadScene("Level Fail");
             }
         }
         
