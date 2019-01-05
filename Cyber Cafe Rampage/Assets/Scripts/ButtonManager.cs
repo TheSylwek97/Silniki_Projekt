@@ -4,9 +4,10 @@ using UnityEngine.SceneManagement;
 
 public class ButtonManager : MonoBehaviour {
 
-	public void NewGameBtn()
+	public void NextSecneBtn(string nextSecne)
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(nextSecne);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void ExitGameBtn()

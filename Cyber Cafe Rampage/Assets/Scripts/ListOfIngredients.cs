@@ -23,7 +23,7 @@ public class ListOfIngredients : MonoBehaviour {
         number += 1;   
     }
 
-    public void IsCorrect( )
+    public void IsCorrect()
     {
         Recipe recipe = gameObject.GetComponent<Recipe>();
         
