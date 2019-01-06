@@ -9,16 +9,17 @@ public class Recipe : MonoBehaviour {
     public int _number = 0;
     public void Start()
     {
-        string _tag = level.tag;
+        //level = GameObject.Find("GameMaster");
+       // string _tag = level.tag;
 
-        if (_tag == "probny")
+        if (level.tag == "probny")
         {
             RecipeList.Add("Mleko");
             _number = 1;
             //gameObject.SendMessage("ListOfIngredients", RecipeList);
         }
 
-        if (_tag == "Level01")
+        if (level.tag == "Level01")
         {
             RecipeList.Add("Honey");
             RecipeList.Add("Cinnamon");
@@ -26,7 +27,7 @@ public class Recipe : MonoBehaviour {
             RecipeList.Add("Espresso");
             _number = 4;
         }
-        if (_tag == "Level02")
+        if (tag == "Level02")
         {
             RecipeList.Add("Kakao");
             RecipeList.Add("Sugar");
@@ -34,7 +35,7 @@ public class Recipe : MonoBehaviour {
             RecipeList.Add("Cinnamon");
             _number = 4;
         }
-        if (_tag == "Level03")
+        if (tag == "Level03")
         {
             RecipeList.Add("Milk");
             RecipeList.Add("White Chocolate");
@@ -43,7 +44,7 @@ public class Recipe : MonoBehaviour {
             RecipeList.Add("Espresso");
             _number = 5;
         }
-        if (_tag == "Level04")
+        if (tag == "Level04")
         {
             RecipeList.Add("Milk");
             RecipeList.Add("Espresso");
@@ -53,7 +54,7 @@ public class Recipe : MonoBehaviour {
             RecipeList.Add("Gingerbread");
             _number = 6;
         }
-        if (_tag == "Level05")
+        if (tag == "Level05")
         {
             RecipeList.Add("Milk");
             RecipeList.Add("Pumpkin puree");

@@ -67,14 +67,15 @@ using UnityEngine;
 
 public class MoveScrypt : MonoBehaviour
 {
-
+    
     bool status;
     public Inventory level;
+    Item item;
 
     public void Start()
     {
         level = GameObject.Find("GameMaster").GetComponent<Inventory>();
-
+        item = gameObject.GetComponent<Item>();
         if (level.tag == "Messroom")
         {
             Rigidbody2D rb = GetComponent<Rigidbody2D>();
@@ -105,12 +106,12 @@ public class MoveScrypt : MonoBehaviour
         if (level.tag != "Messroom")
             status = true;
 
-        if ((level.tag == "Messroom"))
+        if ((level.tag == "Messroom")) 
         {
-            string name = this.gameObject.name;
-            level.ListaItemow.Add(name);
-            
-            Destroy(this.gameObject);
+            // string name = this.gameObject.name;
+            level._item = item;
+            Debug.Log("S");
+           // Destroy(this.gameObject);
         }
     }
 
@@ -123,5 +124,19 @@ public class MoveScrypt : MonoBehaviour
             status = false;
     }
 
+    
+}
+
+public class Item2 : MonoBehaviour
+{
+
+    [System.Serializable]
+    public class ItemData
+    {
+        public string Name;
+    }
+
+    public ItemData Data;
 
 }
+

@@ -188,6 +188,48 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &228456059
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4707778257126416, guid: 16ce32d964fd566479f8f876bff47518, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4707778257126416, guid: 16ce32d964fd566479f8f876bff47518, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.33534506
+      objectReference: {fileID: 0}
+    - target: {fileID: 4707778257126416, guid: 16ce32d964fd566479f8f876bff47518, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.105427675
+      objectReference: {fileID: 0}
+    - target: {fileID: 4707778257126416, guid: 16ce32d964fd566479f8f876bff47518, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4707778257126416, guid: 16ce32d964fd566479f8f876bff47518, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4707778257126416, guid: 16ce32d964fd566479f8f876bff47518, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4707778257126416, guid: 16ce32d964fd566479f8f876bff47518, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4707778257126416, guid: 16ce32d964fd566479f8f876bff47518, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 16ce32d964fd566479f8f876bff47518, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &740314152
 GameObject:
   m_ObjectHideFlags: 0
@@ -349,9 +391,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1882939125}
   - component: {fileID: 1882939124}
+  - component: {fileID: 1882939127}
+  - component: {fileID: 1882939126}
+  - component: {fileID: 1882939128}
   m_Layer: 0
   m_Name: CoffeeMaker
-  m_TagString: Untagged
+  m_TagString: Level01
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -415,6 +460,46 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1882939126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882939123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d832e648e4f6fc646bef9b5c8a1765b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: {fileID: 2133847961}
+  RecipeList: []
+  _number: 0
+--- !u!114 &1882939127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882939123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5d17ef260585e54bb5275e5de02befa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  number: 0
+  ListOfItem: []
+  coffee: {fileID: 1902485571398074, guid: 3799aa86d65e6ec4ebd8b1d9288f9b46, type: 2}
+--- !u!114 &1882939128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882939123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88ab443ba362b37438b805ed7aa3635c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inv: {fileID: 0}
 --- !u!1 &2133847961
 GameObject:
   m_ObjectHideFlags: 0
@@ -426,7 +511,7 @@ GameObject:
   - component: {fileID: 2133847962}
   m_Layer: 0
   m_Name: WoodenTable
-  m_TagString: Untagged
+  m_TagString: Level01
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
