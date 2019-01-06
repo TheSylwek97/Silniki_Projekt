@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MessyRoom01.unity
     guid: b96592d505d46e844bc9d54b46194132
   - enabled: 1
-    path: Assets/Scenes/Level01.unity
+    path: Assets/Scenes/level01.unity
     guid: 842ff566a8094ca45aaca0f96968b196
   - enabled: 1
     path: Assets/Scenes/MessyRoom02.unity
@@ -42,9 +42,51 @@ EditorBuildSettings:
     path: Assets/Scenes/Level05.unity
     guid: fe0df9f2a1a701e4ca734e947aa70856
   - enabled: 1
-    path: Assets/Scenes/Level Fail.unity
+    path: Assets/Scenes/LevelFail01.unity
     guid: 3edabc1a34107864483eed9741147c5e
   - enabled: 1
-    path: Assets/Scenes/Level Completed.unity
+    path: Assets/Scenes/LevelCompleted01.unity
     guid: eac6d3cb878807248a4c028897d1632c
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 657ba677dc0685a48bca46c05d581107
+  - enabled: 1
+    path: Assets/Scenes/Ingredients_Level01.unity
+    guid: b896082799c420b4ab48045e05d081d0
+  - enabled: 1
+    path: Assets/Scenes/Ingredients_Level02.unity
+    guid: 2796dcf3ba10ff44c9173c37ab49ae0d
+  - enabled: 1
+    path: Assets/Scenes/Ingredients_Level03.unity
+    guid: 1991d52d054293240af40c69336aa55e
+  - enabled: 1
+    path: Assets/Scenes/Ingredients_Level04.unity
+    guid: 1651046ffb3bf194fa88a0c55e9d0124
+  - enabled: 1
+    path: Assets/Scenes/Ingredients_Level05.unity
+    guid: 1071a464499131c44abc94179306d851
+  - enabled: 1
+    path: Assets/Scenes/LevelCompleted02.unity
+    guid: 66ef1e50a278fc34f99eecf406b4394a
+  - enabled: 1
+    path: Assets/Scenes/LevelCompleted03.unity
+    guid: 93ef71f4fcf55664095befaf2929357c
+  - enabled: 1
+    path: Assets/Scenes/LevelCompleted04.unity
+    guid: c51146e7fa9126441afb7835fd7e7cb6
+  - enabled: 1
+    path: Assets/Scenes/LevelCompleted05.unity
+    guid: 0beb3419ef35ded43b85bbc4d8ee1ccd
+  - enabled: 1
+    path: Assets/Scenes/LevelFail02.unity
+    guid: d4f53ae51af39ec45ab3e9c93637cf18
+  - enabled: 1
+    path: Assets/Scenes/LevelFail03.unity
+    guid: 9ed251ae3849ab24484ab6887e18e8b8
+  - enabled: 1
+    path: Assets/Scenes/LevelFail04.unity
+    guid: 8bc767942aa3d9b4482c3ac1bf2fab30
+  - enabled: 1
+    path: Assets/Scenes/LevelFail05.unity
+    guid: 5556b35de3aa225429a47e8f8a3cc9ea
   m_configObjects: {}
