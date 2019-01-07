@@ -6,7 +6,7 @@ using UnityEditor.SceneManagement;
 
 public class Inventory : MonoBehaviour
 {
-    //public Item _item;
+    public Item _item;
 
     [System.Serializable]
     public class InventoryData
