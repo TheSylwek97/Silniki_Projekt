@@ -12,7 +12,7 @@ public class ListOfIngredients : MonoBehaviour {
 
     [SerializeField]
     public string LevelCompleted;
-    public static string LevelFail;
+    public string LevelFail;
 
     void Update ()
     {
