@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4707778257126416}
   - component: {fileID: 114687388968308116}
+  - component: {fileID: 114807125028409438}
   m_Layer: 0
   m_Name: Game Master
   m_TagString: Messroom
@@ -46,9 +47,22 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1557287138445278}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 23a4ea7b169a2e545b31b003c77b4b2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ListaItemow: []
+  _item: {fileID: 0}
+  Data:
+    ListaItemow: []
+--- !u!114 &114807125028409438
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1557287138445278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abbab5faf5053a5478025090e1afaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

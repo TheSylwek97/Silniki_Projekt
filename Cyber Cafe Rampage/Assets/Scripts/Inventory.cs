@@ -6,7 +6,11 @@ using UnityEditor.SceneManagement;
 
 public class Inventory : MonoBehaviour
 {
-    public Item _item;
+    private void Start()
+    {
+        Debug.Log(":");
+    }
+    /*public Item _item;
 
     [System.Serializable]
     public class InventoryData
@@ -16,13 +20,13 @@ public class Inventory : MonoBehaviour
 
     private void Update()
     {
-        AddItem();
+        //AddItem();
         Debug.Log("K");
     }
 
     public InventoryData Data;
 
-    public void AddItem()
+   /* public void AddItem()
     {
         Item item = gameObject.GetComponent<Item>();
         Data.ListaItemow.Add(item.Data);
@@ -42,7 +46,7 @@ public class Inventory : MonoBehaviour
         var value = JsonUtility.ToJson(Data);
         Debug.Log(value);
         File.WriteAllText(Application.persistentDataPath + '/' + "save.dat", value);
-    }
+    }*/
 
     /*public List<string> ListaItemow = new List<string>();
     private GameObject _tag;

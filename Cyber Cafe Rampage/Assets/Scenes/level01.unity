@@ -225,7 +225,16 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4707778257126416, guid: 16ce32d964fd566479f8f876bff47518, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1557287138445278, guid: 16ce32d964fd566479f8f876bff47518, type: 2}
+      propertyPath: m_TagString
+      value: Item
+      objectReference: {fileID: 0}
+    - target: {fileID: 114687388968308116, guid: 16ce32d964fd566479f8f876bff47518,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16ce32d964fd566479f8f876bff47518, type: 2}
@@ -376,11 +385,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1660472932}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.72, y: -3.71, z: 0}
+  m_LocalPosition: {x: 2.16, y: -3.71, z: 0}
   m_LocalScale: {x: 0.096026, y: 0.096026, z: 0.096026}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1882939123
 GameObject:
@@ -394,6 +403,7 @@ GameObject:
   - component: {fileID: 1882939127}
   - component: {fileID: 1882939126}
   - component: {fileID: 1882939128}
+  - component: {fileID: 1882939129}
   m_Layer: 0
   m_Name: CoffeeMaker
   m_TagString: Level01
@@ -488,6 +498,8 @@ MonoBehaviour:
   number: 0
   ListOfItem: []
   coffee: {fileID: 1902485571398074, guid: 3799aa86d65e6ec4ebd8b1d9288f9b46, type: 2}
+  LevelCompleted: 
+  LevelFail: 
 --- !u!114 &1882939128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -500,6 +512,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inv: {fileID: 0}
+--- !u!61 &1882939129
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1882939123}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.06755066, y: -1.4523296}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 18, y: 12}
+    newSize: {x: 18, y: 12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 9.488674, y: 9.095341}
+  m_EdgeRadius: 0
 --- !u!1 &2133847961
 GameObject:
   m_ObjectHideFlags: 0
@@ -509,6 +546,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2133847963}
   - component: {fileID: 2133847962}
+  - component: {fileID: 2133847964}
   m_Layer: 0
   m_Name: WoodenTable
   m_TagString: Level01
@@ -575,3 +613,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2133847964
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2133847961}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -2.3204255}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 18, y: 12}
+    newSize: {x: 18, y: 12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 18, y: 7.359149}
+  m_EdgeRadius: 0

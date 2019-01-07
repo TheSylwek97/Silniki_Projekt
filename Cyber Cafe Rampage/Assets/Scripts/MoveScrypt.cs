@@ -69,17 +69,25 @@ public class MoveScrypt : MonoBehaviour
 {
     
     bool status;
-    public Inventory level;
-    Item item;
+    public GameObject level;
+    //Item item;
 
     public void Start()
     {
-        level = GameObject.Find("GameMaster").GetComponent<Inventory>();
-        item = gameObject.GetComponent<Item>();
+        level = GameObject.Find("Game Master");
+       
+       // item = gameObject.GetComponent<Item>();
         if (level.tag == "Messroom")
         {
             Rigidbody2D rb = GetComponent<Rigidbody2D>();
-            rb.constraints = RigidbodyConstraints2D.FreezePosition;
+            //rb.constraints = RigidbodyConstraints2D.FreezePosition;
+            rb.bodyType = RigidbodyType2D.Kinematic;
+        }
+
+        if (level.tag == "Item")
+        {
+            Rigidbody2D rb = GetComponent<Rigidbody2D>();
+            rb.bodyType = RigidbodyType2D.Dynamic;
 
         }
     }
@@ -103,15 +111,18 @@ public class MoveScrypt : MonoBehaviour
 
     public void OnMouseDown()
     {
-        if (level.tag != "Messroom")
+        if ((level.tag != "Messroom") || (level.tag == null))
             status = true;
 
         if ((level.tag == "Messroom")) 
         {
             // string name = this.gameObject.name;
-            level._item = item;
-            Debug.Log("S");
-           // Destroy(this.gameObject);
+            //level._item = item;
+            // Debug.Log("S");
+            // Destroy(this.gameObject);
+            IVN.ListaPref.Add(this.gameObject.name);
+            Destroy(this.gameObject);
+            status = false;
         }
     }
 
@@ -127,16 +138,4 @@ public class MoveScrypt : MonoBehaviour
     
 }
 
-public class Item2 : MonoBehaviour
-{
-
-    [System.Serializable]
-    public class ItemData
-    {
-        public string Name;
-    }
-
-    public ItemData Data;
-
-}
 

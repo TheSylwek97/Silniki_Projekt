@@ -307,6 +307,7 @@
     <Compile Include="Assets\Scripts\Inventory.cs" />
     <Compile Include="Assets\Scripts\IsCorrect.cs" />
     <Compile Include="Assets\Scripts\Item.cs" />
+    <Compile Include="Assets\Scripts\IVN.cs" />
     <Compile Include="Assets\Scripts\ListOfIngredients.cs" />
     <Compile Include="Assets\Scripts\MoveScrypt.cs" />
     <Compile Include="Assets\Scripts\Recipe.cs" />

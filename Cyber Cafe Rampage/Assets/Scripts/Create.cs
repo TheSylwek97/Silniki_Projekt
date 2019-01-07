@@ -4,23 +4,30 @@ using UnityEngine;
 
 public class Create : MonoBehaviour {
 
-    /*public Inventory inv;
-    GameObject _nazwa;
-    float x = Random.Range(0, 10);
-    float y = Random.Range(0, 10);
+    public Inventory inv;
+   //string _nazwa;
+    
+    
 	// Use this for initialization
 	void Start () {
-        inv = GameObject.Find("GameMaker").GetComponent<Inventory>();
+        //inv = GameObject.Find("GameMaker").GetComponent<Inventory>();
+        float x = Random.Range(-7, 7);
+        float y = Random.Range(0, 5);
 
-        foreach(string nazwa in inv.ListaItemow)
+        if ((x > -2) && (x < 2))
         {
-            _nazwa = new GameObject(nazwa);
-            Instantiate(_nazwa, new Vector2(x, y), Quaternion.identity);
+            x = x - 5;
+        }
+        foreach (string nazwa in IVN.ListaPref)
+        {
+            
+            Instantiate(Resources.Load(nazwa), new Vector2(x, y), Quaternion.identity);
+            Debug.Log("K");
         }
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		
-	}*/
+	}
 }
