@@ -11,12 +11,12 @@ public class IngredientsTimer : MonoBehaviour {
     [SerializeField]
     public string levelName;
     public float setTime;
-    public float runTime = 0f;
+    public float runTimeDontChange = 0f;
 
     public void Update()
     {
-        runTime += Time.deltaTime;
-        if (runTime>= setTime)
+        runTimeDontChange += Time.deltaTime;
+        if (runTimeDontChange >= setTime)
         {
              SceneManager.LoadScene(levelName);
         }

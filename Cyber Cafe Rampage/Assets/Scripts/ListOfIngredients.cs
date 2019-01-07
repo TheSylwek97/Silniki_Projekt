@@ -10,6 +10,9 @@ public class ListOfIngredients : MonoBehaviour {
     public List<string> ListOfItem = new List<string>();
     public GameObject coffee;
     
+    [SerializeField]
+    public string LevelCompleted, LevelFail;
+
 	void Update ()
     {
         IsCorrect();
@@ -31,11 +34,11 @@ public class ListOfIngredients : MonoBehaviour {
         {
             if (recipe.RecipeList.SequenceEqual(ListOfItem))
             {
-                SceneManager.LoadScene("Level Completed");
+                SceneManager.LoadScene(LevelCompleted);
             }
             else
             {
-                SceneManager.LoadScene("Level Fail");
+                SceneManager.LoadScene(LevelFail);
             }
         }
         
