@@ -99,11 +99,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5d17ef260585e54bb5275e5de02befa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RecipeList: []
-  ListOfItem: []
-  level: {fileID: 0}
   number: 0
-  _number: 0
+  ListOfItem: []
+  coffee: {fileID: 0}
+  LevelCompleted: 
+  LevelFail: 
 --- !u!212 &212807643662171764
 SpriteRenderer:
   m_ObjectHideFlags: 1

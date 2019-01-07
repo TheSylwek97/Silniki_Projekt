@@ -52,9 +52,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23a4ea7b169a2e545b31b003c77b4b2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _item: {fileID: 0}
-  Data:
-    ListaItemow: []
 --- !u!114 &114807125028409438
 MonoBehaviour:
   m_ObjectHideFlags: 1
