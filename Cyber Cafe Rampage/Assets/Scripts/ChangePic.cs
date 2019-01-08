@@ -15,17 +15,17 @@ public class ChangePic : MonoBehaviour {
         newPic.GetComponent<GameObject>();
         fire.GetComponent<GameObject>();
         steam.GetComponent<GameObject>();
-        newPic.gameObject.active = false;
-        fire.gameObject.active = false;
-        steam.gameObject.active = false;
+        newPic.gameObject.SetActive(false);
+        fire.gameObject.SetActive(false);
+        steam.gameObject.SetActive(false);
 
     }
     public void OnMouseDown()
     {
-        oldPic.gameObject.active = false;
-        newPic.gameObject.active = true;
-        fire.gameObject.active = true;
-        steam.gameObject.active = true;
+        oldPic.gameObject.SetActive(false);
+        newPic.gameObject.SetActive(true);
+        fire.gameObject.SetActive(true);
+        steam.gameObject.SetActive(true);
 
     }
 
