@@ -11,19 +11,29 @@ public class ListOfIngredients : MonoBehaviour {
     public GameObject coffee;
 
     [SerializeField]
-    public string LevelCompleted;
-    public string LevelFail;
+    public string LevelCompleted, LevelFail;
+    public GameObject oldPic, newPic, fire, steam;
 
     void Update ()
     {
         IsCorrect();
     }
 
+    void Start()
+    {
+        oldPic.GetComponent<GameObject>();
+        newPic.GetComponent<GameObject>();
+        fire.GetComponent<GameObject>();
+        steam.GetComponent<GameObject>();
+        newPic.gameObject.SetActive(false);
+        fire.gameObject.SetActive(false);
+        steam.gameObject.SetActive(false);
+    }
     public void OnTriggerEnter2D(Collider2D collider)
     {
         string name = collider.gameObject.name;
         ListOfItem.Add(name);
-        Instantiate(coffee, new Vector2(-5.75F, -2.194F), Quaternion.identity);
+        Instantiate(coffee, new Vector2(-5.75F, -2.88F), Quaternion.identity);
         number += 1;   
     }
 
@@ -35,15 +45,24 @@ public class ListOfIngredients : MonoBehaviour {
         {
             if (Recipe.RecipeList.SequenceEqual(ListOfItem))
             {
-                SceneManager.LoadScene(LevelCompleted);
-                
+                Invoke("LoadLevelCompletedScene", 2.5f);
+                Animations();
             }
             else
-            {
                 SceneManager.LoadScene(LevelFail);
-                
-            }
         }
-        
+    }
+
+    private void Animations()
+    {
+        oldPic.gameObject.SetActive(false);
+        newPic.gameObject.SetActive(true);
+        fire.gameObject.SetActive(true);
+        steam.gameObject.SetActive(true);
+    }
+
+    private void LoadLevelCompletedScene()
+    {
+        SceneManager.LoadScene(LevelCompleted);
     }
 }

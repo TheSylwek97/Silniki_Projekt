@@ -1277,6 +1277,26 @@ Prefab:
       propertyPath: level
       value: 
       objectReference: {fileID: 1776506630}
+    - target: {fileID: 61736575140140462, guid: 8bb06fe2c47d8074890bc91be3a4fcca,
+        type: 2}
+      propertyPath: m_Offset.y
+      value: 1.0158348
+      objectReference: {fileID: 0}
+    - target: {fileID: 61736575140140462, guid: 8bb06fe2c47d8074890bc91be3a4fcca,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 4.1783304
+      objectReference: {fileID: 0}
+    - target: {fileID: 61736575140140462, guid: 8bb06fe2c47d8074890bc91be3a4fcca,
+        type: 2}
+      propertyPath: m_Offset.x
+      value: -0.04146257
+      objectReference: {fileID: 0}
+    - target: {fileID: 61736575140140462, guid: 8bb06fe2c47d8074890bc91be3a4fcca,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1.6878865
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bb06fe2c47d8074890bc91be3a4fcca, type: 2}
   m_IsPrefabAsset: 0

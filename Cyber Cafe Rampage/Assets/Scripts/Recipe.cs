@@ -11,14 +11,14 @@ public class Recipe : MonoBehaviour {
     {
         //level = GameObject.Find("GameMaster");
        // string _tag = level.tag;
-
+       /*
         if (level.tag == "probny")
         {
             RecipeList.Add("Mleko");
             _number = 1;
             //gameObject.SendMessage("ListOfIngredients", RecipeList);
         }
-
+        */
         if (level.tag == "Level01")
         {
             RecipeList.Add("Espresso(Clone)");
@@ -42,8 +42,7 @@ public class Recipe : MonoBehaviour {
             RecipeList.Add("Amaretto(Clone)");
             RecipeList.Add("EkstaktWaniliowy(Clone)");
             RecipeList.Add("Espresso(Clone)");
-            RecipeList.Add("EspressoPodwojne(Clone)");
-            _number = 6;
+            _number = 5;
         }
         if (tag == "Level04")
         {
