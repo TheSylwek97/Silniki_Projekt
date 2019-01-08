@@ -23,7 +23,7 @@ public class ListOfIngredients : MonoBehaviour {
     {
         string name = collider.gameObject.name;
         ListOfItem.Add(name);
-        Instantiate(coffee, new Vector2(0.67F, -2.194F), Quaternion.identity);
+        Instantiate(coffee, new Vector2(-5.75F, -2.194F), Quaternion.identity);
         number += 1;   
     }
 
