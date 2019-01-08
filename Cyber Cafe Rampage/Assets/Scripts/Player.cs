@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
 
-  
+   //public PlayerData PlayerData { get; private set; }
 
-   // public PlayerData PlayerData { get; private set; }
     private void OnEnable()
     {
         PlayerData.whichLvl = PlayerSetttings.LoadData();

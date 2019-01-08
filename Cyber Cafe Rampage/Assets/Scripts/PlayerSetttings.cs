@@ -22,7 +22,8 @@ public class PlayerSetttings : MonoBehaviour {
 
     public static int LoadData()
     {
-        int level = PlayerPrefs.GetInt("level");
+        int level;// = PlayerData.whichLvl;
+        level = PlayerPrefs.GetInt("level");
 
         return level;
     }
