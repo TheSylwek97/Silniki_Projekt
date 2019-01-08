@@ -5,7 +5,7 @@ using UnityEngine;
 public class Recipe : MonoBehaviour {
 
     public GameObject level;
-    public List<string> RecipeList = new List<string>();
+    static public List<string> RecipeList = new List<string>();
     public int _number = 0;
     public void Start()
     {
@@ -21,55 +21,56 @@ public class Recipe : MonoBehaviour {
 
         if (level.tag == "Level01")
         {
-            RecipeList.Add("Miod");
-            RecipeList.Add("CynamonMielony");
-            RecipeList.Add("Mleko");
-            RecipeList.Add("Espresso");
+            RecipeList.Add("Espresso(Clone)");
+            RecipeList.Add("Mleko(Clone)");
+            RecipeList.Add("CynamonMielony(Clone)");
+            RecipeList.Add("Miod(Clone)");
             _number = 4;
         }
         if (tag == "Level02")
         {
-            RecipeList.Add("GorzkieKakao");
-            RecipeList.Add("CukierBialy");
-            RecipeList.Add("MieloneChili");
-            RecipeList.Add("CynamonMielony");
+            RecipeList.Add("GorzkieKakao(Clone)");
+            RecipeList.Add("CukierBialy(Clone)");
+            RecipeList.Add("MieloneChili(Clone)");
+            RecipeList.Add("CynamonMielony(Clone)");
             _number = 4;
         }
         if (tag == "Level03")
         {
-            RecipeList.Add("Mleko");
-            RecipeList.Add("BialaCzekolada");
-            RecipeList.Add("Amaretto");
-            RecipeList.Add("EkstaktWaniliowy");
-            RecipeList.Add("Espresso");
-            RecipeList.Add("EspressoPodwojne");
+            RecipeList.Add("Mleko(Clone)");
+            RecipeList.Add("BialaCzekolada(Clone)");
+            RecipeList.Add("Amaretto(Clone)");
+            RecipeList.Add("EkstaktWaniliowy(Clone)");
+            RecipeList.Add("Espresso(Clone)");
+            RecipeList.Add("EspressoPodwojne(Clone)");
             _number = 6;
         }
         if (tag == "Level04")
         {
-            RecipeList.Add("Mleko");
-            RecipeList.Add("Espresso");
-            RecipeList.Add("SyropKlonowy");
-            RecipeList.Add("PrzyprawaPiernikowa");
-            RecipeList.Add("BitaSmietana");
-            RecipeList.Add("Pierniczki");
+            RecipeList.Add("Mleko(Clone)");
+            RecipeList.Add("Espresso(Clone)");
+            RecipeList.Add("SyropKlonowy(Clone)");
+            RecipeList.Add("PrzyprawaPiernikowa(Clone)");
+            RecipeList.Add("BitaSmietana(Clone)");
+            RecipeList.Add("Pierniczki(Clone)");
             _number = 6;
         }
         if (tag == "Level05")
         {
-            RecipeList.Add("Mleko");
-            RecipeList.Add("PureeDyniowe");
-            RecipeList.Add("CukierBialy");
-            RecipeList.Add("CynamonMielony");
-            RecipeList.Add("MielonaGałkaMuszkatołowa");
-            RecipeList.Add("MieloneImbir");
-            RecipeList.Add("Gozdziki");
-            RecipeList.Add("Espresso");
-            RecipeList.Add("EkstaktWaniliowy");
-            RecipeList.Add("BitaSmietana");
+            RecipeList.Add("CynamonMielony(Clone)");
+            RecipeList.Add("MielonaGałkaMuszkatołowa(Clone)");
+            RecipeList.Add("MieloneImbir(Clone)");
+            RecipeList.Add("MieloneGodzdziki(Clone)");
+            RecipeList.Add("Mleko(Clone)");
+            RecipeList.Add("BitaSmietana(Clone)");
+            RecipeList.Add("PureeDyniowe(Clone)");
+            RecipeList.Add("PrzyprawaDoKawy(Clone)");
+            RecipeList.Add("EkstaktWaniliowy(Clone)");
+            RecipeList.Add("Espresso(Clone)");
             _number = 10;
         }
     }
+    
 
     /*public void Send(List<string> RecipeList)
     {

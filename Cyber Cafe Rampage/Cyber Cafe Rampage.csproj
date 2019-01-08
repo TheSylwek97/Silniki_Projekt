@@ -302,14 +302,17 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\ButtonManager.cs" />
     <Compile Include="Assets\Scripts\ChangePic.cs" />
+    <Compile Include="Assets\Scripts\ClearList.cs" />
     <Compile Include="Assets\Scripts\Create.cs" />
     <Compile Include="Assets\Scripts\IngredientsTimer.cs" />
     <Compile Include="Assets\Scripts\Inventory.cs" />
-    <Compile Include="Assets\Scripts\IsCorrect.cs" />
     <Compile Include="Assets\Scripts\Item.cs" />
     <Compile Include="Assets\Scripts\IVN.cs" />
     <Compile Include="Assets\Scripts\ListOfIngredients.cs" />
     <Compile Include="Assets\Scripts\MoveScrypt.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\PlayerData.cs" />
+    <Compile Include="Assets\Scripts\PlayerSetttings.cs" />
     <Compile Include="Assets\Scripts\Recipe.cs" />
   </ItemGroup>
   <ItemGroup>

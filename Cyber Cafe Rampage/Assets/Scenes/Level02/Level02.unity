@@ -1076,7 +1076,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: {fileID: 2133847961}
-  RecipeList: []
   _number: 0
 --- !u!114 &1882939127
 MonoBehaviour:
@@ -1143,7 +1142,7 @@ GameObject:
   - component: {fileID: 2133847964}
   m_Layer: 0
   m_Name: WoodenTable
-  m_TagString: Level01
+  m_TagString: Level02
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

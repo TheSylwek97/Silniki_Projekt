@@ -418,7 +418,7 @@ Prefab:
     - target: {fileID: 224527389386318910, guid: b2eb52db19bf0f240a0bdb0eaef877d9,
         type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224527389386318910, guid: b2eb52db19bf0f240a0bdb0eaef877d9,
         type: 2}
@@ -1176,7 +1176,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: {fileID: 2133847961}
-  RecipeList: []
   _number: 0
 --- !u!114 &1882939127
 MonoBehaviour:
@@ -1243,7 +1242,7 @@ GameObject:
   - component: {fileID: 2133847964}
   m_Layer: 0
   m_Name: WoodenTable
-  m_TagString: Level01
+  m_TagString: Level05
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

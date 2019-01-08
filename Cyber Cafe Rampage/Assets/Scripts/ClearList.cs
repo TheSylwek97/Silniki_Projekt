@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ClearList : MonoBehaviour {
-
+     
     
-	void Update ()
+    void Update ()
     {
-        IVN.ListaPref.Clear(); 
+        IVN.ListaPref.Clear();
+        Recipe.RecipeList.Clear();
     }
 }

@@ -33,13 +33,15 @@ public class ListOfIngredients : MonoBehaviour {
 
         if (number == recipe._number)
         {
-            if (recipe.RecipeList.SequenceEqual(ListOfItem))
+            if (Recipe.RecipeList.SequenceEqual(ListOfItem))
             {
                 SceneManager.LoadScene(LevelCompleted);
+                
             }
             else
             {
                 SceneManager.LoadScene(LevelFail);
+                
             }
         }
         
