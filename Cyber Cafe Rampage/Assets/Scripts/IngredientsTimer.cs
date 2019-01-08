@@ -6,8 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class IngredientsTimer : MonoBehaviour {
 
-
-
     [SerializeField]
     public string levelName;
     public float setTime;

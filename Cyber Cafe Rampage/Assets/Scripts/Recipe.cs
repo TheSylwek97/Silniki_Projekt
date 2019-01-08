@@ -21,51 +21,52 @@ public class Recipe : MonoBehaviour {
 
         if (level.tag == "Level01")
         {
-            RecipeList.Add("Honey");
-            RecipeList.Add("Cinnamon");
-            RecipeList.Add("Milk");
+            RecipeList.Add("Miod");
+            RecipeList.Add("CynamonMielony");
+            RecipeList.Add("Mleko");
             RecipeList.Add("Espresso");
             _number = 4;
         }
         if (tag == "Level02")
         {
-            RecipeList.Add("Kakao");
-            RecipeList.Add("Sugar");
-            RecipeList.Add("Chili");
-            RecipeList.Add("Cinnamon");
+            RecipeList.Add("GorzkieKakao");
+            RecipeList.Add("CukierBialy");
+            RecipeList.Add("MieloneChili");
+            RecipeList.Add("CynamonMielony");
             _number = 4;
         }
         if (tag == "Level03")
         {
-            RecipeList.Add("Milk");
-            RecipeList.Add("White Chocolate");
+            RecipeList.Add("Mleko");
+            RecipeList.Add("BialaCzekolada");
             RecipeList.Add("Amaretto");
-            RecipeList.Add("Vanilla");
+            RecipeList.Add("EkstaktWaniliowy");
             RecipeList.Add("Espresso");
-            _number = 5;
+            RecipeList.Add("EspressoPodwojne");
+            _number = 6;
         }
         if (tag == "Level04")
         {
-            RecipeList.Add("Milk");
+            RecipeList.Add("Mleko");
             RecipeList.Add("Espresso");
-            RecipeList.Add("Maple syrup");
-            RecipeList.Add("Gingerbread spice");
-            RecipeList.Add("Whipped cream");
-            RecipeList.Add("Gingerbread");
+            RecipeList.Add("SyropKlonowy");
+            RecipeList.Add("PrzyprawaPiernikowa");
+            RecipeList.Add("BitaSmietana");
+            RecipeList.Add("Pierniczki");
             _number = 6;
         }
         if (tag == "Level05")
         {
-            RecipeList.Add("Milk");
-            RecipeList.Add("Pumpkin puree");
-            RecipeList.Add("Sugar");
-            RecipeList.Add("Cinnamon");
-            RecipeList.Add("Nutmeg");
-            RecipeList.Add("Ginger");
-            RecipeList.Add("Carnation");
+            RecipeList.Add("Mleko");
+            RecipeList.Add("PureeDyniowe");
+            RecipeList.Add("CukierBialy");
+            RecipeList.Add("CynamonMielony");
+            RecipeList.Add("MielonaGałkaMuszkatołowa");
+            RecipeList.Add("MieloneImbir");
+            RecipeList.Add("Gozdziki");
             RecipeList.Add("Espresso");
-            RecipeList.Add("Vanilla");
-            RecipeList.Add("Whipped cream");
+            RecipeList.Add("EkstaktWaniliowy");
+            RecipeList.Add("BitaSmietana");
             _number = 10;
         }
     }

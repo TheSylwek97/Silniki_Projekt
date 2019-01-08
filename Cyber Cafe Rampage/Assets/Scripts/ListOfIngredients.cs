@@ -9,11 +9,12 @@ public class ListOfIngredients : MonoBehaviour {
     public int number = 0;
     public List<string> ListOfItem = new List<string>();
     public GameObject coffee;
-    
-    [SerializeField]
-    public string LevelCompleted, LevelFail;
 
-	void Update ()
+    [SerializeField]
+    public string LevelCompleted;
+    public string LevelFail;
+
+    void Update ()
     {
         IsCorrect();
     }
@@ -29,7 +30,7 @@ public class ListOfIngredients : MonoBehaviour {
     public void IsCorrect()
     {
         Recipe recipe = gameObject.GetComponent<Recipe>();
-        
+
         if (number == recipe._number)
         {
             if (recipe.RecipeList.SequenceEqual(ListOfItem))
