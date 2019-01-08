@@ -22,7 +22,7 @@ public class Create : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Awake () {
-        float x = Random.Range(-3.46F, 7);
+        float x = Random.Range(-2.46F, 7);
         float y = Random.Range(0, 5);
 
         foreach (string nazwa in IVN.ListaPref)
