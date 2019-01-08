@@ -25,6 +25,6 @@ public class ButtonManager : MonoBehaviour {
 
     public void SaveGameBtn(int levelCommp)
     {
-        Save.level = levelCommp;
+        //Save.level = levelCommp;
     }
 }
