@@ -45,8 +45,8 @@ public class ListOfIngredients : MonoBehaviour {
         {
             if (Recipe.RecipeList.SequenceEqual(ListOfItem))
             {
-                Invoke("LoadLevelCompletedScene", 2.5f);
-                Animations();
+                Invoke("LoadLevelCompletedScene", 4.5f);
+                Invoke("Animations", 2.5f);
             }
             else
                 SceneManager.LoadScene(LevelFail);
