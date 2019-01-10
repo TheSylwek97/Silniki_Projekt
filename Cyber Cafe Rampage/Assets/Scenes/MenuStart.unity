@@ -124,6 +124,7 @@ GameObject:
   - component: {fileID: 83061296}
   - component: {fileID: 83061295}
   - component: {fileID: 83061294}
+  - component: {fileID: 83061297}
   m_Layer: 5
   m_Name: Button_WczytajGre
   m_TagString: Untagged
@@ -236,6 +237,18 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 83061292}
   m_CullTransparentMesh: 0
+--- !u!114 &83061297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 83061292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f2d03f26ce5e4740aa060ebf3a4f766, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: 7e22bb0f9d6653c4f912c52c84137595, type: 3}
 --- !u!1 &99010628
 GameObject:
   m_ObjectHideFlags: 0
@@ -1309,6 +1322,7 @@ GameObject:
   - component: {fileID: 1937790423}
   - component: {fileID: 1937790422}
   - component: {fileID: 1937790421}
+  - component: {fileID: 1937790424}
   m_Layer: 5
   m_Name: Button_NowaGra
   m_TagString: Untagged
@@ -1421,6 +1435,18 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1937790419}
   m_CullTransparentMesh: 0
+--- !u!114 &1937790424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1937790419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f2d03f26ce5e4740aa060ebf3a4f766, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: 7e22bb0f9d6653c4f912c52c84137595, type: 3}
 --- !u!1 &2117370878
 GameObject:
   m_ObjectHideFlags: 0
