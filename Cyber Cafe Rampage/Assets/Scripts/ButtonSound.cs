@@ -16,7 +16,7 @@ public class ButtonSound : MonoBehaviour {
         source.clip = sound;
         source.playOnAwake = false;
 
-        button.onClick.AddListener(() => PlaySound());
+        button.onClick.AddListener(PlaySound);
     }
 
     void PlaySound()
