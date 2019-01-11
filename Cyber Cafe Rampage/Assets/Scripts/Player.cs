@@ -15,11 +15,8 @@ public class Player : MonoBehaviour {
     {
         PlayerSetttings.SaveData(this);
     }
-    void Start () {
-		
-	}
-	void Update () {
+    void Start ()
+    {
         Debug.Log(PlayerData.whichLvl);
-
     }
 }

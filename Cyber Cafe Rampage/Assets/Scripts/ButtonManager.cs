@@ -11,7 +11,7 @@ public class ButtonManager : MonoBehaviour {
     }
     public void MenuBtn()
     {
-       /* if(PlayerData.whichLvl > 0)
+        /*if(PlayerData.whichLvl > 0)
         {
             PlayerData.whichLvl = 0;
         }*/
@@ -45,10 +45,5 @@ public class ButtonManager : MonoBehaviour {
     {
         Debug.Log("Quit");
         Application.Quit();
-    }
-
-    public void SaveGameBtn(int levelCommp)
-    {
-        //Save.level = levelCommp;
     }
 }

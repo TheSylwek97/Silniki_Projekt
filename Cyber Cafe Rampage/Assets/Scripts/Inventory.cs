@@ -8,7 +8,7 @@ public class Inventory : MonoBehaviour
 {
     private void Start()
     {
-        Debug.Log(":");
+        Debug.Log("inventory 1 test");
     }
     /*public Item _item;
 
@@ -37,12 +37,9 @@ public class Inventory : MonoBehaviour
     {
         var isom = File.ReadAllText(Application.persistentDataPath + '/' + "save.dat");
         Data = JsonUtility.FromJson<InventoryData>(isom);
-
-
     }
     private void OnDisable()
     {
-
         var value = JsonUtility.ToJson(Data);
         Debug.Log(value);
         File.WriteAllText(Application.persistentDataPath + '/' + "save.dat", value);
@@ -73,9 +70,6 @@ public class Inventory : MonoBehaviour
         {
            DontDestroyOnLoad(gameObject);
         }
-
-        
-
     }
 
     void OnLoadCallback(Scene scene, LoadSceneMode sceneMode)
@@ -83,33 +77,3 @@ public class Inventory : MonoBehaviour
 
     }*/
 }
-
-
-
-/*
-// WERSJA 2 
-
-    [System.Serializable]
-    public class InventoryData
-    {
-        public List<GameObject> ListaItemow = new List<GameObject>();
-    }
-    
-
-   public InventoryData Data;
-
-    private void OnEnable()
-    {
-        var isom = File.ReadAllText(Application.persistentDataPath + '/' + "save.dat");
-        Data = JsonUtility.FromJson<InventoryData>(isom);
-
-
-    }
-    private void OnDisable()
-    {
-
-        var value = JsonUtility.ToJson(Data);
-        Debug.Log(value);
-        File.WriteAllText(Application.persistentDataPath + '/' + "save.dat", value);
-    }
-    */

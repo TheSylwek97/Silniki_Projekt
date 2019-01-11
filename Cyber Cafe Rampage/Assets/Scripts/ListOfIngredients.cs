@@ -26,7 +26,6 @@ public class ListOfIngredients : MonoBehaviour {
         fire.GetComponent<GameObject>();
         steam.GetComponent<GameObject>();
         newPic.gameObject.SetActive(false);
-        //oldPic.gameObject.SetActive(true);
         fire.gameObject.SetActive(false);
         steam.gameObject.SetActive(false);
     }

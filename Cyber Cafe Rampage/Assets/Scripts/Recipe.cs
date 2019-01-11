@@ -29,7 +29,7 @@ public class Recipe : MonoBehaviour {
         }
         if (tag == "Level02")
         {
-            Debug.Log("222222222222222222222222222222222");
+            Debug.Log("level02 debug");
             RecipeList.Add("GorzkieKakao(Clone)");
             RecipeList.Add("CukierBialy(Clone)");
             RecipeList.Add("MieloneChili(Clone)");
@@ -70,7 +70,6 @@ public class Recipe : MonoBehaviour {
             _number = 10;
         }
     }
-
 
     /*public void Send(List<string> RecipeList)
     {
