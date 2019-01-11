@@ -430,7 +430,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 349244025}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.59, y: -3.17, z: 0}
+  m_LocalPosition: {x: -5.59, y: -2.99, z: 0}
   m_LocalScale: {x: 0.0561835, y: 0.0561835, z: 0.0561835}
   m_Children: []
   m_Father: {fileID: 0}
@@ -449,7 +449,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4447150439455846, guid: 597896a9e9f69684496bbcd4817372d8, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -2.62
+      value: -2.4399998
       objectReference: {fileID: 0}
     - target: {fileID: 4447150439455846, guid: 597896a9e9f69684496bbcd4817372d8, type: 2}
       propertyPath: m_LocalPosition.z
@@ -693,7 +693,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 690919030}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.6, y: -3.34, z: 0}
+  m_LocalPosition: {x: -5.6, y: -3.1599998, z: 0}
   m_LocalScale: {x: 0.054968968, y: 0.054968968, z: 0.054968968}
   m_Children: []
   m_Father: {fileID: 0}
@@ -904,7 +904,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4945851986041982, guid: a1d62410590fd9c4d9a2cab4049a7433, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -2.13
+      value: -1.95
       objectReference: {fileID: 0}
     - target: {fileID: 4945851986041982, guid: a1d62410590fd9c4d9a2cab4049a7433, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1247,6 +1247,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: {fileID: 2133847961}
+  _number: 0
 --- !u!114 &1882939127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1261,7 +1262,6 @@ MonoBehaviour:
   number: 0
   ListOfItem: []
   coffee: {fileID: 1902485571398074, guid: 3799aa86d65e6ec4ebd8b1d9288f9b46, type: 2}
-  recipe: {fileID: 0}
   LevelCompleted: LevelCompleted02
   LevelFail: LevelFail02
   oldPic: {fileID: 690919030}
