@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
-using UnityEditor.SceneManagement;
 
 public class Inventory : MonoBehaviour
 {
