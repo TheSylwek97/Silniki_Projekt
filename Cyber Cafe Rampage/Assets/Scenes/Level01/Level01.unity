@@ -1217,7 +1217,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: {fileID: 2133847961}
-  _number: 0
 --- !u!114 &1882939127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1232,6 +1231,7 @@ MonoBehaviour:
   number: 0
   ListOfItem: []
   coffee: {fileID: 1902485571398074, guid: 3799aa86d65e6ec4ebd8b1d9288f9b46, type: 2}
+  recipe: {fileID: 0}
   LevelCompleted: LevelCompleted01
   LevelFail: LevelFail01
   oldPic: {fileID: 1848406411}

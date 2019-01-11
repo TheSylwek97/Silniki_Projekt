@@ -6,7 +6,7 @@ public class Recipe : MonoBehaviour {
 
     public GameObject level;
     static public List<string> RecipeList = new List<string>();
-    public int _number = 0;
+     public int _number = 0;
     public void Start()
     {
         //level = GameObject.Find("GameMaster");
@@ -29,6 +29,7 @@ public class Recipe : MonoBehaviour {
         }
         if (tag == "Level02")
         {
+            Debug.Log("222222222222222222222222222222222");
             RecipeList.Add("GorzkieKakao(Clone)");
             RecipeList.Add("CukierBialy(Clone)");
             RecipeList.Add("MieloneChili(Clone)");
@@ -69,7 +70,7 @@ public class Recipe : MonoBehaviour {
             _number = 10;
         }
     }
-    
+
 
     /*public void Send(List<string> RecipeList)
     {

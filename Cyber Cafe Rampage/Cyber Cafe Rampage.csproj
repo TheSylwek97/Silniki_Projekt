@@ -300,8 +300,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\BGMusic.cs" />
     <Compile Include="Assets\Scripts\ButtonManager.cs" />
-    <Compile Include="Assets\Scripts\ChangePic.cs" />
+    <Compile Include="Assets\Scripts\ButtonSound.cs" />
     <Compile Include="Assets\Scripts\ClearList.cs" />
     <Compile Include="Assets\Scripts\Create.cs" />
     <Compile Include="Assets\Scripts\IngredientsTimer.cs" />
