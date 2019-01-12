@@ -1,7 +1,7 @@
 
 Cyber Cafe Rampage 
 - Wysokopoziomowy opis pomysłu:
-Gracz jest studentem i podjął pracę dorywczą w kawiarni. Zanim zacznie się level z parzeniem trunków należy znaleźć potrzebne składniki w bałaganie. Potem pojawia automat do parzenia kaw. Gracz ma przyklejoną notatkę z przepisem od Mengera(musi zapamiętać przepis, gra była by za łatwa). Musi dodać poprawne składniki w odpowiedniej kolejności do naczynia. Do tego w grze znajdować się będą parę niespodzianek dla gracza (jest jedna).
+- Gracz jest studentem i podjął pracę dorywczą w kawiarni. Zanim zacznie się level z parzeniem trunków należy znaleźć potrzebne składniki w bałaganie. Potem pojawia automat do parzenia kaw. Gracz ma przyklejoną notatkę z przepisem od Mengera(musi zapamiętać przepis, gra była by za łatwa). Musi dodać poprawne składniki w odpowiedniej kolejności do naczynia. Do tego w grze znajdować się będą parę niespodzianek dla gracza (jest jedna).
 - Gatunek – symulator
 - Świat – świat współczesny, kawiarnia
 - Zasady gry – postępuj według przepisu, kierowanie myszką, elementy point and click, drag.
@@ -34,5 +34,5 @@ Klaudia – model ekspresu, kod do ekspresu, dźwięki, interface startu,
 - Multiplayer - nope
 - co-op - niet
 - split-screen - może (nope, jednak nie)
-- 2d/3d (2.5d/4d) – 2D i 3D (2D)
-- wymagane assety? (grafiki, dźwięki, pluginy) – obrazki do pre levelu, modele 3D (2D) do pełnych levelów
+- 2d/3d (2.5d/4d) – 2D i 3D (2D <s> i 3D </s>)
+- wymagane assety? (grafiki, dźwięki, pluginy) – obrazki do pre levelu, modele 3D (<s>3D</s>2D) do pełnych levelów
