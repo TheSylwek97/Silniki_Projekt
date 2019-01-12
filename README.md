@@ -33,6 +33,6 @@ Klaudia – model ekspresu, kod do ekspresu, dźwięki, interface startu,
 - co może pójść nie tak? – wszystko
 - Multiplayer - nope
 - co-op - niet
-- split-screen - może (nope, jednak nie, ale jest przygotowana na 16:9)
+- split-screen - może (nope, jednak nie, ale zaleca się screen na 16:9)
 - 2d/3d (2.5d/4d) – 2D i 3D (2D <s> i 3D </s>)
 - wymagane assety? (grafiki, dźwięki, pluginy) – obrazki do pre levelu, modele 3D (<s>3D</s>2D) do pełnych levelów
